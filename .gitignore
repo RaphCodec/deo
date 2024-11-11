@@ -26,3 +26,5 @@ Thumbs.db
 
 # Ignore coverage reports
 coverage/
+
+__pycache__/
