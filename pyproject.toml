@@ -1,0 +1,22 @@
+[project]
+name = "deo"
+version = "0.1.0"
+author = "RaphCodeC"
+description = """This is a data engineering library with the goal of simplyfiying some common tasks that I've had to do during career.
+This is a work in progross and I do not have any intention of publishing this to PyPi as of the date this file was commited."""
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "loguru>=0.7.2",
+    "pandas>=2.0.3",
+    "polars>=1.8.2",
+    "pyarrow>=17.0.0",
+    "pyodbc>=5.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "icecream>=2.1.3",
+    "pytest>=8.3.3",
+    "ruff>=0.7.3",
+]
